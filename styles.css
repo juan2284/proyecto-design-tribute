@@ -1,0 +1,84 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main{
+  width: 100%;
+  background-color: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+  'Helvetica Neue', Arial, sans-serif;
+  color: #333333;
+}
+
+.title{
+  font-size: 2.5em;
+  position: relative;
+  top: 35px;
+}
+
+.subtitle{
+  position: relative;
+  top: 20px;
+  font-weight: normal;
+  font-size: 0.95em;
+}
+
+.img-div{
+  width: 98%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-div img{
+  max-width: 100%;
+}
+
+.img-div .img-caption{
+  padding: 15px;
+}
+
+.tribute-info{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 27px;
+}
+
+.lista-anos .anos{
+  margin-top: 15px;;
+}
+
+.tribute-info .quote .cita{
+  text-align: justify;
+}
+
+.tribute-info .quote{
+  width: 93%;
+}
+
+.footer{
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 28px;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
